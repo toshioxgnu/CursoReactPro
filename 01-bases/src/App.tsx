@@ -1,11 +1,13 @@
 
 import logo from './logo.svg';
+import { Counter } from './bases/Counter';
+import { CounterBy } from './bases/CounterrBy';
 
 function App() {
   return (
     <>
-      <h1>REACT!!</h1>
-      <hr />
+      <Counter  initialValue={ 15 } />
+      <CounterBy />
     </>
   );
 }
