@@ -1,4 +1,7 @@
+import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
+
+
 
 const MAX_COUNT = 10;
 

@@ -1,11 +1,10 @@
-import { useEffect, useRef, useState } from "react"
-import { gsap } from "gsap";
+import { useCounter } from "../hooks/useCounter";
 
 const MAX_COUNT = 10;
 
 export const CounterHook = (  ) => {
 
-    
+  const { counter, counterElement, handleClick } = useCounter();
 
   return (
     <>
